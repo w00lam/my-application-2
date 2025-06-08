@@ -1,7 +1,7 @@
 package app;
 
 import pack1.A;
-import pack2.B;
+//import pack2.B;
 import pack3.C;
 
 public class Main {
@@ -11,8 +11,8 @@ public class Main {
         a.method();
 
         //my-module-a 패키지에 포함된 B 클래스 사용
-        B b = new B();
-        b.method();
+        /*B b = new B();
+        b.method();*/
 
         //my-module-b 패키지에 포함된 C 클래스 사용
         C c = new C();
