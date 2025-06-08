@@ -17,5 +17,8 @@ public class Main {
         //my-module-b 패키지에 포함된 C 클래스 사용
         C c = new C();
         c.method();
+
+        C result = a.getC();
+        result.method();
     }
 }
